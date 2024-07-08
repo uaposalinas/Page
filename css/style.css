@@ -4,6 +4,23 @@ body {
   background-color: #ffffff;
 }
 
+::-webkit-scrollbar{
+
+  width:7px;
+  background-color:transparent;
+
+}
+
+
+::-webkit-scrollbar-thumb{
+
+  width:7px;
+  background-color:#7668AF;
+  border-radius:20px;
+
+}
+
+
 .layout_padding {
   padding: 75px 0;
 }
@@ -117,7 +134,14 @@ a:focus {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 24px;
-  color: #fafcfd;
+  width:60px;
+  height:60px;
+  background-image:url(../images/favicon.png);
+  background-size:cover;
+  background-position:center;
+  position:relative;
+  left:20px;
+
 }
 
 .custom_nav-container .nav_search-btn {
